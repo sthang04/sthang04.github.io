@@ -1,1 +1,168 @@
-<h1>Hello I'm sthang</h1>
+<!-- <h1>Hello I'm sthang</h1> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thang's Personal Webpage | Week 2</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Local CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+
+    <div class="container">
+        <!-- 1. HEADER & PROFILE PICTURE SECTION -->
+        <header class="site-header">
+            <div class="profile-wrapper">
+                <img id="profile-pic" src="profilepic.jpg" alt="Profile Picture">
+
+            </div>
+
+            <h1>Hello, I'm <span class="highlight-name">Sarah</span> 👋</h1>
+            <p class="tagline"> Travel Lover</p>
+
+            <div class="header-actions">
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="#travel-destination" class="btn btn-secondary">Favorite Destination ✈️</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- 2. BIOGRAPHY BOX SECTION -->
+            <section id="about">
+                <h2 class="section-title"><span class="icon">📖</span> Biography</h2>
+                <div class="bio-box">
+                    <h3>A Little Bit About Myself</h3>
+                    <p>
+                        Welcome to my personal webpage! I am a passionate student learning web dev. I love turning
+                        creative ideas into responsive, visually captivating digital experiences.
+                    </p>
+                    <p>
+                        When I'm not coding or debugging CSS layouts, you can usually find me exploring new coffee shops
+                        or researching my next dream travel destinations around the globe.
+                    </p>
+                    <div class="bio-tags">
+                        <span class="tag">💻 Web Development</span>
+                        <span class="tag">🎨 UI / CSS Design</span>
+                        <span class="tag">🌏 Global Travel</span>
+                        <span class="tag">📸 Yoga</span>
+                        <span class="tag">☕ Chocolate Lover</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 3. FAVORITE TRAVEL DESTINATION VIDEO -->
+
+            <section id="travel-destination">
+                <h2 class="section-title"><span class="icon">🏔️</span> Favorite Travel Destination: The Swiss Alps</h2>
+                <div class="video-card">
+                    <div class="video-header">
+                        <h3>Wanderlust in Switzerland (4K Cinematic)</h3>
+                        <p>Switzerland is my absolute favorite dream travel destination with its breathtaking alpine
+                            peaks, crystal-clear lakes, and picturesque mountain villages.</p>
+                    </div>
+
+                    <div class="video-wrapper">
+                        <iframe id="favorite-travel-video" src="https://youtu.be/7-SNj5eN9qk?si=XOKI4R5s5v-RFD_j"
+                            title="Switzerland Travel Destination 4K"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="video-footer-caption">
+                        <span>📍 Lauterbrunnen & Zermatt, Switzerland</span>
+                        <span class="video-badge">▶ Auto-playing (Muted)</span>
+                    </div>
+                </div>
+            </section>
+            <!-- 4. TRAVEL BUCKET LIST -->
+            <section class="travel-gallery">
+                <h2 class="section-title"><span class="icon">🗺️</span> More Dream Destinations</h2>
+                <div class="cards-grid">
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=600&auto=format&fit=crop&q=80"
+                                alt="Tokyo, Japan">
+                            <span class="card-badge">Asia</span>
+                        </div>
+                        <div class="card-content">
+                            <h4>Tokyo, Japan</h4>
+                            <p>A dazzling blend of futuristic neon-lit skyscrapers and serene historic temples.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80"
+                                alt="Paris, France">
+                            <span class="card-badge">Europe</span>
+                        </div>
+                        <div class="card-content">
+                            <h4>Paris, France</h4>
+                            <p>The city of light, world-class art, vibrant café culture, and iconic historic landmarks.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=600&auto=format&fit=crop&q=80"
+                                alt="Da Nang, Vietnam">
+                            <span class="card-badge">Southeast Asia</span>
+                        </div>
+                        <div class="card-content">
+                            <h4>Da Nang, Vietnam</h4>
+                            <p>Stunning coastal beaches, Marble Mountains, vibrant night markets, and warm hospitality.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="quick-highlights">
+                <h2 class="section-title"><span class="icon">✨</span> Quick Highlights</h2>
+                <div class="two-columns">
+                    <div class="info-column">
+                        <h3>Current Focus</h3>
+                        <ul class="info-list">
+                            <li><span class="dot"></span> HTML5 Semantic Structuring</li>
+                            <li><span class="dot"></span> CSS Box Model (Margins, Padding, Borders)</li>
+                            <li><span class="dot"></span> Positioning (Static, Relative, Absolute, Fixed)</li>
+                            <li><span class="dot"></span> Responsive Layouts & Animations</li>
+                        </ul>
+                    </div>
+                    <div class="info-column">
+                        <h3>Fun Facts</h3>
+                        <ul class="info-list">
+                            <li><span class="dot"></span> ☕ Taekwondo Black Tip</li>
+                            <li><span class="dot"></span> 🎧 Enjoys lo-fi music while coding</li>
+                            <li><span class="dot"></span> 📸 Loves photography</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <a href="#top" class="back-to-top" aria-label="Back to top">
+            <span>↑</span>
+            <span>Top</span>
+        </a>
+
+        <footer class="site-footer">
+            <p>© 2026 Thang's Personal Webpage • Built with CSS</p>
+            <p class="footer-sub">Week 2 Homework - CSS Basics & GitHub Pages</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
