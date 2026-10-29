@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #1e293b; font-family: system-ui, -apple-system, sans-serif; }
+main { max-width: 940px; margin: 35px auto; padding: 0 18px; }
+h1 { margin-bottom: 8px; }
+.subtitle { color: #64748b; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 16px; margin: 22px 0; }
+.card, .leaderboard { background: white; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; box-shadow: 0 2px 8px #0f172a08; }
+.card { text-align: center; }
+.emoji { font-size: 52px; margin: 0; }
+button { background: #6d28d9; color: white; border: 0; border-radius: 8px; padding: 10px 16px; cursor: pointer; }
+button:hover { background: #5b21b6; }
+button.secondary { background: #475569; }
+.leaderboard ol { padding-left: 25px; }
+.leaderboard li { padding: 6px 0; }
+.topline { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.status { font-weight: 600; color: #6d28d9; }
